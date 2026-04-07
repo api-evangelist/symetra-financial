@@ -1,7 +1,12 @@
 aid: symetra-financial
-url: https://raw.githubusercontent.com/api-evangelist/symetra-financial/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/symetra-financial/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.symetra-financial.com
+description: >-
+  Symetra Financial is a diversified financial services company providing employee
+  benefits, annuities, and life insurance to individuals, families, and businesses
+  through independent advisors and financial institutions.
