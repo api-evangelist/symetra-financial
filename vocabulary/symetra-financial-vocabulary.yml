@@ -1,0 +1,248 @@
+vocabulary:
+  provider: Symetra Financial
+  description: >-
+    Domain vocabulary for Symetra Financial Corporation covering employee
+    benefits, annuities, life insurance, and financial services terminology.
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  tags:
+    - Annuities
+    - Benefits
+    - Financial Services
+    - Insurance
+    - Life Insurance
+
+  terms:
+
+    - term: Annuity
+      definition: >-
+        A financial product sold by an insurance company providing a stream of
+        payments to the purchaser, typically used as income during retirement.
+      category: Product
+      tags:
+        - Annuities
+        - Retirement
+
+    - term: Fixed Annuity
+      definition: >-
+        An annuity that earns a guaranteed interest rate for a defined period,
+        providing predictable, stable growth. Symetra offers Multi-Year
+        Guarantee Annuities (MYGAs) in this category.
+      category: Product
+      tags:
+        - Annuities
+        - Fixed Annuities
+
+    - term: Fixed Indexed Annuity
+      definition: >-
+        An annuity whose credited interest is linked to the performance of a
+        market index (such as the S&P 500) with a floor preventing loss.
+        Combines market participation with principal protection.
+      category: Product
+      abbreviation: FIA
+      tags:
+        - Annuities
+        - Indexed Annuities
+
+    - term: Registered Index-Linked Annuity
+      definition: >-
+        An annuity that links growth potential to a market index while providing
+        partial downside protection through a buffer or floor. Offers higher
+        upside potential than FIAs with defined risk limits.
+      category: Product
+      abbreviation: RILA
+      tags:
+        - Annuities
+        - Indexed Annuities
+
+    - term: Income Annuity
+      definition: >-
+        An annuity contract that converts a lump sum into a stream of guaranteed
+        income payments for life or a specified period. Also called immediate
+        annuity or Single Premium Immediate Annuity (SPIA).
+      category: Product
+      tags:
+        - Annuities
+        - Income
+        - Retirement
+
+    - term: Term Life Insurance
+      definition: >-
+        Life insurance that provides a death benefit for a specified period
+        (term), typically 10 to 30 years. Coverage expires at the end of the
+        term unless renewed.
+      category: Product
+      tags:
+        - Insurance
+        - Life Insurance
+
+    - term: SwiftTerm
+      definition: >-
+        Symetra's online term life insurance product that provides coverage
+        decisions in as little as 18 minutes without a medical exam for
+        qualifying applicants.
+      category: Product
+      tags:
+        - Insurance
+        - Life Insurance
+        - Term Life
+
+    - term: Permanent Life Insurance
+      definition: >-
+        Life insurance providing lifelong coverage that accumulates cash value
+        over time, including whole life, universal life, and indexed universal
+        life products.
+      category: Product
+      tags:
+        - Insurance
+        - Life Insurance
+
+    - term: Medical Stop Loss Insurance
+      definition: >-
+        Insurance purchased by self-funded employers to protect against
+        catastrophic or unpredictable medical claims. Symetra has 50 years of
+        leadership in this space. Reimburses the employer when claims exceed
+        a specific threshold (specific stop loss) or aggregate threshold.
+      category: Product
+      abbreviation: Stop Loss
+      tags:
+        - Benefits
+        - Employee Benefits
+        - Insurance
+        - Stop Loss
+
+    - term: Group Life Insurance
+      definition: >-
+        Term life insurance coverage offered by an employer to employees as part
+        of a benefits package. Symetra provides group life and AD&D insurance.
+      category: Product
+      tags:
+        - Benefits
+        - Employee Benefits
+        - Insurance
+        - Life Insurance
+
+    - term: Disability Income Protection
+      definition: >-
+        Insurance that replaces a portion of income when an employee cannot work
+        due to illness or injury. Includes both short-term disability (STD) and
+        long-term disability (LTD).
+      category: Product
+      tags:
+        - Benefits
+        - Disability
+        - Employee Benefits
+        - Insurance
+
+    - term: Supplemental Health
+      definition: >-
+        Voluntary benefits that provide cash benefits to help cover costs not
+        paid by major medical insurance. Includes accident, critical illness, and
+        hospital indemnity coverage.
+      category: Product
+      tags:
+        - Benefits
+        - Employee Benefits
+        - Health
+        - Insurance
+
+    - term: Evidence of Insurability
+      definition: >-
+        Proof of good health required by an insurance company when an applicant
+        applies for coverage above a guaranteed issue amount or during a special
+        enrollment period.
+      category: Process
+      abbreviation: EOI
+      tags:
+        - Enrollment
+        - Insurance
+        - Underwriting
+
+    - term: Electronic Data Interchange
+      definition: >-
+        Automated electronic exchange of enrollment, eligibility, and
+        claims data between employers, benefits administrators, and Symetra
+        using standardized data formats.
+      category: Technology
+      abbreviation: EDI
+      tags:
+        - Benefits Administration
+        - Data Exchange
+        - Integration
+
+    - term: Benefits Administration
+      definition: >-
+        The management of employee benefit programs including enrollment,
+        eligibility, claims processing, and reporting. Symetra supports API
+        and EDI integration with HR platforms and benefits administration systems.
+      category: Process
+      tags:
+        - Benefits
+        - Employee Benefits
+        - HR
+
+    - term: Single Sign-On
+      definition: >-
+        Authentication mechanism allowing users to log in once and access
+        multiple connected systems. Symetra supports SSO for EOI portals.
+      category: Technology
+      abbreviation: SSO
+      tags:
+        - Authentication
+        - Integration
+        - Technology
+
+    - term: Enrollment
+      definition: >-
+        The process by which eligible employees select and sign up for benefit
+        plans offered by their employer during open enrollment, new hire, or
+        qualifying life event periods.
+      category: Process
+      tags:
+        - Benefits
+        - Employee Benefits
+        - HR
+
+    - term: In-Force Policy
+      definition: >-
+        An insurance policy that is currently active and for which premiums are
+        being paid. In-force management covers policy administration, billing,
+        and servicing.
+      category: Operational
+      tags:
+        - Insurance
+        - Policy Management
+
+    - term: Underwriting
+      definition: >-
+        The process by which an insurer evaluates the risk of insuring an
+        applicant and determines coverage terms and premiums. Symetra uses
+        accelerated underwriting for SwiftTerm.
+      category: Process
+      tags:
+        - Insurance
+        - Risk
+        - Underwriting
+
+    - term: Illustration
+      definition: >-
+        A document showing projected values and benefits of a life insurance or
+        annuity policy under various scenarios and assumptions, used during the
+        sales process.
+      category: Process
+      tags:
+        - Annuities
+        - Financial Advisors
+        - Insurance
+
+    - term: Distribution Partner
+      definition: >-
+        Independent agents, brokers, financial advisors, and financial
+        institutions authorized to sell and distribute Symetra products on
+        Symetra's behalf.
+      category: Business
+      tags:
+        - Financial Advisors
+        - Insurance
+        - Sales

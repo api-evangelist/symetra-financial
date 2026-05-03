@@ -1,0 +1,134 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "symetra": "https://www.symetra.com/vocab#",
+
+    "FinancialProduct": "schema:FinancialProduct",
+    "InsuranceAgency": "schema:InsuranceAgency",
+    "FinancialService": "schema:FinancialService",
+
+    "Annuity": {
+      "@id": "symetra:Annuity",
+      "@type": "@id",
+      "skos:definition": "A financial product providing a stream of payments, typically for retirement income."
+    },
+    "FixedAnnuity": {
+      "@id": "symetra:FixedAnnuity",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:Annuity" }
+    },
+    "FixedIndexedAnnuity": {
+      "@id": "symetra:FixedIndexedAnnuity",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:Annuity" }
+    },
+    "RegisteredIndexLinkedAnnuity": {
+      "@id": "symetra:RegisteredIndexLinkedAnnuity",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:Annuity" },
+      "skos:altLabel": "RILA"
+    },
+    "IncomeAnnuity": {
+      "@id": "symetra:IncomeAnnuity",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:Annuity" }
+    },
+
+    "LifeInsurancePolicy": {
+      "@id": "symetra:LifeInsurancePolicy",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "schema:FinancialProduct" }
+    },
+    "TermLifeInsurance": {
+      "@id": "symetra:TermLifeInsurance",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:LifeInsurancePolicy" }
+    },
+    "PermanentLifeInsurance": {
+      "@id": "symetra:PermanentLifeInsurance",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:LifeInsurancePolicy" }
+    },
+    "SwiftTerm": {
+      "@id": "symetra:SwiftTerm",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:TermLifeInsurance" },
+      "skos:definition": "Symetra's instant-issue online term life insurance product."
+    },
+
+    "EmployeeBenefits": {
+      "@id": "symetra:EmployeeBenefits",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "schema:FinancialProduct" }
+    },
+    "MedicalStopLoss": {
+      "@id": "symetra:MedicalStopLoss",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:EmployeeBenefits" },
+      "skos:definition": "Insurance protecting self-funded employers against catastrophic medical claims."
+    },
+    "GroupLifeInsurance": {
+      "@id": "symetra:GroupLifeInsurance",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:EmployeeBenefits" }
+    },
+    "DisabilityIncome": {
+      "@id": "symetra:DisabilityIncome",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:EmployeeBenefits" }
+    },
+    "SupplementalHealth": {
+      "@id": "symetra:SupplementalHealth",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "symetra:EmployeeBenefits" }
+    },
+
+    "EvidenceOfInsurability": {
+      "@id": "symetra:EvidenceOfInsurability",
+      "@type": "@id",
+      "skos:altLabel": "EOI"
+    },
+    "Enrollment": {
+      "@id": "symetra:Enrollment",
+      "@type": "@id"
+    },
+    "Underwriting": {
+      "@id": "symetra:Underwriting",
+      "@type": "@id"
+    },
+    "PolicyIllustration": {
+      "@id": "symetra:PolicyIllustration",
+      "@type": "@id"
+    },
+    "InForcePolicy": {
+      "@id": "symetra:InForcePolicy",
+      "@type": "@id"
+    },
+    "Claim": {
+      "@id": "symetra:Claim",
+      "@type": "@id",
+      "rdfs:subClassOf": { "@id": "schema:PayAction" }
+    },
+
+    "policyNumber": { "@id": "symetra:policyNumber", "@type": "xsd:string" },
+    "effectiveDate": { "@id": "symetra:effectiveDate", "@type": "xsd:date" },
+    "terminationDate": { "@id": "symetra:terminationDate", "@type": "xsd:date" },
+    "premium": { "@id": "symetra:premium", "@type": "xsd:decimal" },
+    "benefitAmount": { "@id": "symetra:benefitAmount", "@type": "xsd:decimal" },
+    "coverageTier": { "@id": "symetra:coverageTier", "@type": "xsd:string" },
+    "groupNumber": { "@id": "symetra:groupNumber", "@type": "xsd:string" },
+    "memberID": { "@id": "symetra:memberID", "@type": "xsd:string" },
+    "claimNumber": { "@id": "symetra:claimNumber", "@type": "xsd:string" },
+    "claimStatus": { "@id": "symetra:claimStatus", "@type": "xsd:string" },
+    "accumulationValue": { "@id": "symetra:accumulationValue", "@type": "xsd:decimal" },
+    "surrenderValue": { "@id": "symetra:surrenderValue", "@type": "xsd:decimal" },
+    "indexStrategy": { "@id": "symetra:indexStrategy", "@type": "xsd:string" },
+    "participationRate": { "@id": "symetra:participationRate", "@type": "xsd:decimal" },
+    "capRate": { "@id": "symetra:capRate", "@type": "xsd:decimal" },
+    "bufferRate": { "@id": "symetra:bufferRate", "@type": "xsd:decimal" },
+    "stopLossThreshold": { "@id": "symetra:stopLossThreshold", "@type": "xsd:decimal" }
+  }
+}
