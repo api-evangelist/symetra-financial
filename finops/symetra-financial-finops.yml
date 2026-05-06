@@ -1,5 +1,6 @@
 specification: FinOps Framework
 specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
 alignedWith:
   framework: FinOps Foundation Framework
   frameworkUrl: https://www.finops.org/framework/
@@ -8,159 +9,49 @@ alignedWith:
   dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
 provider: Symetra Financial
 providerId: symetra-financial
-publisherName: Symetra Financial
-serviceCategory: API
+publisherName: Symetra Life Insurance Company
+serviceCategory: Insurance / Financial Services
 created: '2026-05-04'
-modified: '2026-05-04'
+modified: '2026-05-05'
+reconciled: false
 tags:
-  - Annuities
-  - Benefits
-  - Employee Benefits
-  - Financial Services
   - Insurance
-  - Life Insurance
-  - Stop Loss
+  - Annuities
+  - Employee Benefits
   - FinOps
-  - Cost Management
   - FOCUS
-description: FinOps framework definition for the Symetra Financial API surface. Provides a FOCUS-aligned
-  mapping for cost allocation, usage measurement, and unit-economics reporting across the provider's APIs.
-principles:
-  - name: Visibility
-    description: Make API consumption costs visible to engineering, product, and finance teams in near
-      real-time.
-  - name: Allocation
-    description: Tag every chargeable API call with the consuming team, environment, application, and
-      feature so cost can be allocated.
-  - name: Optimization
-    description: Continuously evaluate request patterns, caching, batching, and tier selection to reduce
-      cost per useful unit of work.
-  - name: Accountability
-    description: Establish budget owners and chargeback or showback flows for each consuming team.
-domains:
-  - name: Understand Usage and Cost
-    capabilities:
-      - Data Ingestion
-      - Allocation
-      - Reporting and Analytics
-      - Anomaly Management
-  - name: Quantify Business Value
-    capabilities:
-      - Planning and Estimating
-      - Forecasting
-      - Budgeting
-      - Benchmarking
-      - Unit Economics
-  - name: Optimize Usage and Cost
-    capabilities:
-      - Architecting for Cloud
-      - Rate Optimization
-      - Workload Optimization
-      - Cloud Sustainability
-      - Licensing and SaaS
-  - name: Manage the FinOps Practice
-    capabilities:
-      - FinOps Practice Operations
-      - FinOps Education and Enablement
-      - Invoicing and Chargeback
-      - Onboarding Workloads
-      - Intersecting Disciplines
+description: Symetra's APIs are partner-integration channels (HR platforms, brokers, advisors) without public usage-based pricing or a FOCUS-aligned cost export.
+sources:
+  - https://www.symetra.com
+  - https://www.symetra.com/learn/articles-for-employers/technology-solutions/
+notes: No public usage telemetry or FOCUS-aligned export. Cost data must be reconciled from partner connectivity contracts and any insurance product premium / commission flows associated with the integration.
 billingModel:
-  pricingCategory: Usage-Based
-  billingFrequency: Monthly
+  pricingCategory: Partner Integration
+  billingFrequency: Per-Contract
   billingCurrency: USD
   chargeCategories:
-    - Usage
     - Purchase
-    - Tax
-    - Credit
-    - Adjustment
-  chargeFrequency: Recurring
 focusColumns:
-  ServiceName: Symetra Financial
-  ServiceCategory: Developer Tools / API
+  ServiceName: Symetra Financial APIs
+  ServiceCategory: Insurance / Financial Services
   ProviderName: Symetra Financial
-  PublisherName: Symetra Financial
-  InvoiceIssuerName: Symetra Financial
-  PricingCategory: Usage-Based
-  PricingUnit: request
+  PublisherName: Symetra Life Insurance Company
+  InvoiceIssuerName: Symetra Life Insurance Company
   BillingCurrency: USD
-  ChargeCategory: Usage
 meters:
-  - name: api_requests
-    description: Count of billable API requests
-    unit: request
-    aggregation: sum
-    dimensions:
-      - api
-      - endpoint
-      - tier
-      - region
-      - consumer
-  - name: data_egress
-    description: Bytes returned over the network in API responses
-    unit: GB
-    aggregation: sum
-    dimensions:
-      - api
-      - region
-      - consumer
-  - name: compute_seconds
-    description: Server-side compute consumed by the request, where applicable
-    unit: second
-    aggregation: sum
-    dimensions:
-      - api
-      - endpoint
-      - tier
-apis:
-  - name: Symetra Benefits Administration API
-    baseURL: https://api.symetra.com
-    tags:
-      - Benefits Administration
-      - Claims
-      - EDI
-      - Eligibility
-      - Employee Benefits
-      - Enrollment
-      - HR Integration
-      - Insurance
-      - Stop Loss
-    serviceName: Symetra Benefits Administration API
-    serviceCategory: API
-  - name: Symetra Annuities API
-    baseURL: https://api.symetra.com
-    tags:
-      - Annuities
-      - Financial Advisors
-      - Financial Services
-      - Fixed Annuities
-      - Income Annuities
-      - Indexed Annuities
-      - Insurance
-      - RILA
-      - Retirement
-    serviceName: Symetra Annuities API
-    serviceCategory: API
-  - name: Symetra Life Insurance API
-    baseURL: https://api.symetra.com
-    tags:
-      - Financial Advisors
-      - Insurance
-      - Life Insurance
-      - Permanent Life
-      - Policy Management
-      - Term Life
-      - Underwriting
-    serviceName: Symetra Life Insurance API
-    serviceCategory: API
-unitEconomics:
-  - name: Cost per 1K Requests
-    metric: billed_cost / (api_requests / 1000)
-    target: TBD
-  - name: Cost per Active Consumer
-    metric: billed_cost / active_consumers
-    target: TBD
+  - name: partner_integration
+    description: Partner integration relationships - the unit of consumption for Symetra's APIs is the connectivity agreement, not per-call.
+    unit: varies
+    aggregation: count
+principles:
+  - name: Visibility
+    description: Cost visibility flows through Symetra account management to the partner; there is no self-service usage console or FOCUS-aligned export.
+  - name: Allocation
+    description: Allocate against the partner relationship (HR platform, broker, advisor) rather than per API call - that is the contractual unit Symetra prices on.
+  - name: Optimization
+    description: Optimization is contractual - reduce manual EOI / claims handoffs and rely on the API for straight-through processing to lower per-transaction operating cost on the partner side.
+  - name: Accountability
+    description: The partner's integration owner and the Symetra account team jointly own the relationship; commercial review happens at contract renewal.
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
