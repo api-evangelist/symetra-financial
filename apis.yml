@@ -106,7 +106,7 @@ common:
     url: https://accounts.symetra.com/ui/login
   - type: Contact
     url: https://www.symetra.com/contact-us/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.symetra.com/privacy-policy/
   - type: Help Center
     url: https://www.symetra.com/help-center/
