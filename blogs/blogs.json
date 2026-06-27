@@ -3,13 +3,10 @@
   "feeds": [
     {
       "source": "https://www.symetra.com/benefits-blog-posts/",
-      "error": "HTTPError"
-    },
-    {
-      "source": "https://www.symetra.com/help-center/",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 403 Forbidden on listing"
     }
   ],
-  "fetched": "2026-06-14T20:42:17Z",
-  "post_count": 0
+  "fetched": "2026-06-27T13:15:03Z",
+  "post_count": 5
 }
