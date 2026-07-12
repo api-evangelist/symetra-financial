@@ -101,6 +101,10 @@ apis:
       - type: Website
         url: https://www.symetra.com/life-insurance/
 common:
+  - type: TrustCenter
+    url: security/symetra-financial-trust-center.yml
+  - type: DomainSecurity
+    url: security/symetra-financial-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/symetra
   - type: Website
