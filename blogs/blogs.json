@@ -2,11 +2,10 @@
   "repo": "symetra-financial",
   "feeds": [
     {
-      "source": "https://www.symetra.com/benefits-blog-posts/",
-      "saved": 0,
-      "error": "HTTP 403 Forbidden on listing"
+      "source": "https://www.symetra.com/help-center/",
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T13:15:03Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 5
 }
