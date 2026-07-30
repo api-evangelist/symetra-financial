@@ -11,6 +11,18 @@ description: >-
   indexed annuities, registered index-linked annuities, income annuities, term
   life, and permanent life insurance. The company offers API and EDI-based data
   integrations for benefits administrators and HR platforms.
+accessModel:
+  pricing: enterprise
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Enterprise
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.symetra.com/favicon.ico
 tags:
   - Annuities
