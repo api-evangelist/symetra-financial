@@ -28,6 +28,15 @@ tags:
   - Annuities
   - Benefits
   - Employee Benefits
+  - Financial-Services
+  - Insurance
+  - Life Insurance
+  - Stop Loss
+  - Fortune 1000
+tags_raw:
+  - Annuities
+  - Benefits
+  - Employee Benefits
   - Financial Services
   - Insurance
   - Life Insurance
@@ -75,6 +84,16 @@ apis:
     humanURL: https://www.symetra.com/annuities/
     baseURL: https://api.symetra.com
     tags:
+      - Annuities
+      - Financial Advisors
+      - Financial-Services
+      - Fixed Annuities
+      - Income Annuities
+      - Indexed Annuities
+      - Insurance
+      - RILA
+      - Retirement
+    tags_raw:
       - Annuities
       - Financial Advisors
       - Financial Services
