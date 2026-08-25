@@ -3,13 +3,9 @@
   "feeds": [
     {
       "source": "https://www.symetra.com/help-center/",
-      "feed_url": "https://www.symetra.com/help-center/",
-      "title": "",
-      "saved": 0,
-      "method": "none",
-      "error": "fetch_failed: HTTPError"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-08-15T12:11:08Z",
+  "fetched": "2026-08-22T20:20:02Z",
   "post_count": 5
 }
