@@ -1,7 +1,9 @@
 ---
 title: Symetra Introduces New Supplemental Health Claims ...
 url: https://www.nayya.com/blog/Symetra-And-Nayya-Claims
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Symetra Financial" press release artificial intelligence'
 position: 1
 source: serpapi-google

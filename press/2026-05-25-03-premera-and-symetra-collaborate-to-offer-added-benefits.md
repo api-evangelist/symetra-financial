@@ -1,7 +1,9 @@
 ---
 title: Premera and Symetra Collaborate to Offer Added Benefits ...
 url: https://www.prnewswire.com/news-releases/premera-and-symetra-collaborate-to-offer-added-benefits-and-value-for-employers-and-members-275174940.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Symetra Financial" press release artificial intelligence'
 position: 3
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Symetra Names Jeff Sealey Vice President, Stop Loss ...
 url: https://natlawreview.com/press-releases/symetra-names-jeff-sealey-vice-president-stop-loss-captives
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Symetra Financial" press release artificial intelligence'
 position: 2
 source: serpapi-google
