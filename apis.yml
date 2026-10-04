@@ -39,7 +39,7 @@ tags:
   - Annuities
   - Benefits
   - Employee Benefits
-  - Financial-Services
+  - Financial Services
   - Insurance
   - Life Insurance
   - Stop Loss
@@ -53,6 +53,7 @@ tags_raw:
   - Life Insurance
   - Stop Loss
   - Fortune 1000
+  - Financial-Services
 created: '2026-05-03'
 modified: '2026-05-03'
 specificationVersion: '0.23'
@@ -97,7 +98,7 @@ apis:
     tags:
       - Annuities
       - Financial Advisors
-      - Financial-Services
+      - Financial Services
       - Fixed Annuities
       - Income Annuities
       - Indexed Annuities
@@ -114,6 +115,7 @@ apis:
       - Insurance
       - RILA
       - Retirement
+      - Financial-Services
     properties:
       - type: Documentation
         url: https://www.symetra.com/annuities/
