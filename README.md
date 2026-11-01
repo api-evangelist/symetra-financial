@@ -64,38 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Symetra Financial Corporation is a diversified financial services company headquartered in Bellevue, Washington, providing employee benefits, annuities, and life insurance products to individuals, families, and businesses. A subsidiary of Sumitomo Life Insurance Company since 2016, Symetra serves customers through independent advisors and financial institutions nationwide with over $637 billion in assets.
+Symetra Financial Corporation is a diversified financial services company headquartered in Bellevue, Washington, providing employee benefits, annuities, and life insurance products to individuals, families, and businesses through independent advisors and financial institutions. A subsidiary of Sumitomo Life Insurance Company since 2016, Symetra offers medical stop-loss insurance, group life and disability income protection, supplemental health coverage, fixed and indexed annuities, registered index-linked annuities, income annuities, term life, and permanent life insurance. The company offers API and EDI-based data integrations for benefits administrators and HR platforms.
 
-## APIs
+**Areas:** Annuities · Benefits · Employee Benefits · Financial Services · Insurance · Life Insurance · Stop Loss · Fortune 1000
 
-| API | Description |
+## Symetra Financial on APIs.io
+
+Everything profiled for Symetra Financial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/symetra-financial/](https://apis.io/providers/symetra-financial/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Symetra Benefits Administration API](https://apis.io/apis/symetra-financial/symetra-benefits-api/) — Symetra's Benefits Administration API enables HR platforms, benefits administrators, and technology partners to integrate with Symetra's group benefits…
+- [Symetra Annuities API](https://apis.io/apis/symetra-financial/symetra-annuities-api/) — API for accessing Symetra annuity product information, rates, and illustrations. Supports fixed deferred annuities, fixed indexed annuities, registered…
+- [Symetra Life Insurance API](https://apis.io/apis/symetra-financial/symetra-life-insurance-api/) — API supporting Symetra's life insurance products including term life, SwiftTerm (instant-issue life insurance), and permanent life insurance. Enables…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Symetra Financial Context](https://apis.io/jsonld/symetra-financial/symetra-financial-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Symetra Financial Vocabulary](https://apis.io/vocabularies/symetra-financial/symetra-financial-vocabulary/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Symetra Financial Domain Security](https://apis.io/security/symetra-financial/symetra-financial-domain-security/)
+- [Symetra Financial Trust Center](https://apis.io/security/symetra-financial/symetra-financial-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Symetra Financial Plans Pricing](https://apis.io/plans/symetra-financial/symetra-financial-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Symetra Financial Rate Limits](https://apis.io/rate-limits/symetra-financial/symetra-financial-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Symetra Financial Finops](https://apis.io/finops/symetra-financial/symetra-financial-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.symetra.com)
+- [Blog](https://www.symetra.com/benefits-blog-posts/)
+- [Privacy policy](https://www.symetra.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 20.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [Benefits Administration API](https://www.symetra.com/learn/articles-for-employers/technology-solutions/) | HR platform and benefits administrator integration for enrollment, eligibility, claims, and stop-loss |
-| [Annuities API](https://www.symetra.com/annuities/) | Fixed, indexed, RILA, and income annuity product access for advisors and financial institutions |
-| [Life Insurance API](https://www.symetra.com/life-insurance/) | Term, SwiftTerm, and permanent life insurance quoting, application, and policy management |
+| Discoverability | 71.4 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 30.3 |
 
-## Products
+**Agent readiness 0.6** — human-only
 
-- **Employee Benefits**: Medical stop-loss insurance (50+ years leadership), group life, AD&D, disability income, supplemental health
-- **Annuities**: Fixed deferred, fixed indexed (FIA), registered index-linked (RILA), income annuities
-- **Life Insurance**: Term life, SwiftTerm (instant-issue), permanent life insurance
-
-## Artifacts
-
-| Type | Resource |
+| Agent-readiness dimension | Result |
 |---|---|
-| JSON-LD Context | [symetra-financial-context.jsonld](json-ld/symetra-financial-context.jsonld) |
-| Vocabulary | [symetra-financial-vocabulary.yml](vocabulary/symetra-financial-vocabulary.yml) |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Links
+**Regulatory alignment 17.5** — Insurance
 
-- **Website**: https://www.symetra.com
-- **For Employers**: https://www.symetra.com/for-employers/
-- **For Brokers**: https://www.symetra.com/for-brokers/
-- **Technology Solutions**: https://www.symetra.com/learn/articles-for-employers/technology-solutions/
-- **Help Center**: https://www.symetra.com/help-center/
-- **Login**: https://accounts.symetra.com/ui/login
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/symetra-financial/](https://apis.io/providers/symetra-financial/).
 
-## Maintainers
+## How this profile is made
 
-**API Evangelist** | info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Symetra Financial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/symetra-financial/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
